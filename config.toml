@@ -1,0 +1,87 @@
+baseurl = "https://antonioplacerda.github.io"
+DefaultContentLanguage = "en"
+title = "Antonio P Lacerda"
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+copyright = "Everything is mine"
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+googleAnalytics = "UA-147452549-1"
+
+[Params]
+  # homeTitle = "Welcome to my place"
+#  subtitle = "The place where I'll write everything!"
+#   logo = "img/avatar-icon.png"
+  favicon = "img/favicon.ico"
+#  dateFormat = "January 2, 2006"
+  dateFormat = "2006-01-02"
+  commit = false
+  rss = true
+  # comments = true
+  readingTime = true
+  useHLJS = true
+  socialShare = false
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+  since = 2019
+
+#[[Params.bigimg]]
+#  src = "img/triangle.jpg"
+#  desc = "Triangle"
+#[[Params.bigimg]]
+#  src = "img/sphere.jpg"
+#  desc = "Sphere"
+#  # position: see values of CSS background-position.
+#  position = "center top"
+#[[Params.bigimg]]
+#  src = "img/hexagon.jpg"
+#  desc = "Hexagon"
+
+[Author]
+  name = "Antonio P. Lacerda"
+  website = "placerda.pt"
+  email = "antonio@placerda.pt"
+  # facebook = "username"
+  # googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
+  github = "antonioplacerda"
+  # gitlab = "username"
+  #bitbucket = "antonioplacerda"
+  twitter = "_antoniolacerda"
+  # reddit = "username"
+  # linkedin = "username"
+  # xing = "username"
+  stackoverflow = "users/antonioplacerda/username"
+  # snapchat = "username"
+  # instagram = "username"
+  # youtube = "user/username" # or channel/channelname
+  # soundcloud = "username"
+  # spotify = "username"
+  # bandcamp = "username"
+  # itchio = "username"
+  # vk = "username"
+  # paypal = "username"
+  # telegram = "username"
+
+# [[menu.main]]
+#     name = "Blog"
+#     url = ""
+#     weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "about"
+    weight = 3
+
+# [[menu.main]]
+#     name = "Code"
+#     url = "code"
+#     weight = 2
+
+# [[menu.main]]
+#     name = "Tags"
+#     url = "tags"
+#     weight = 3

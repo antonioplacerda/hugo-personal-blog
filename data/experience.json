@@ -1,0 +1,35 @@
+{
+	"title" : "Experience",
+	"experience" : [
+		{
+			"timeperiod" : "December 2019 - Present",
+			"company" : "Millennium BCP",
+			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. "
+		},
+		{
+			"timeperiod" : "September 2017 - December 2018",
+			"company" : "Siemens",
+			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. "
+		},
+		{
+			"timeperiod" : "February 2018 - October 2018",
+			"company" : "Apt Games",
+			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. "
+		},
+		{
+			"timeperiod" : "December 2017 - February 2018",
+			"company" : "Accenture",
+			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. "
+		},
+		{
+			"timeperiod" : "February 2016 - September 2017",
+			"company" : "STAT Martial Arts",
+			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. "
+		},
+		{
+			"timeperiod" : "September 2013 - April 2016",
+			"company" : "Accenture",
+			"description" : "Nunc sapien nisi, maximus eleifend hendrerit sit amet, rutrum vel diam. Duis quam nibh, tincidunt eget nunc nec, suscipit pretium dolor. "
+		}
+	]
+}
