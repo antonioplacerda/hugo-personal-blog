@@ -4,7 +4,6 @@ date: 2019-10-24T22:24:31+01:00
 draft: false
 css: []
 tags: ["docker", "tips"]
-type: "tutorial"
 ---
 
 This is a list of every docker command I find useful and a bit of info about it. It is not intended to be a tutorial of any kind, but maybe someone will find this list as useful as I consider it to be!
