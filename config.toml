@@ -1,24 +1,23 @@
 baseurl = "https://antonioplacerda.github.io"
-DefaultContentLanguage = "en"
+# DefaultContentLanguage = "en"
 title = "Antonio P Lacerda"
-theme = "beautifulhugo"
-metaDataFormat = "yaml"
-pygmentsStyle = "trac"
+theme = "archie"
+# metaDataFormat = "yaml"
+copyright = "© Antonio P Lacerda"
+
+pygmentsStyle = "monokai"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
-copyright = "Everything is mine"
 #pygmentsUseClassic = true
 #pygmentOptions = "linenos=inline"
 #disqusShortname = "XXX"
 googleAnalytics = "UA-147452549-1"
 
-[Params]
-  # homeTitle = "Welcome to my place"
-#  subtitle = "The place where I'll write everything!"
-#   logo = "img/avatar-icon.png"
+[params]
+  mode="auto"
+  subtitle = "The place where I'll write everything!"
   favicon = "img/favicon.ico"
-#  dateFormat = "January 2, 2006"
   dateFormat = "2006-01-02"
   commit = false
   rss = true
@@ -41,30 +40,16 @@ googleAnalytics = "UA-147452549-1"
 #  src = "img/hexagon.jpg"
 #  desc = "Hexagon"
 
-[Author]
-  name = "Antonio P. Lacerda"
-  website = "placerda.pt"
-  email = "antonio@placerda.pt"
-  # facebook = "username"
-  # googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
-  github = "antonioplacerda"
-  # gitlab = "username"
-  #bitbucket = "antonioplacerda"
-  twitter = "_antoniolacerda"
-  # reddit = "username"
-  # linkedin = "username"
-  # xing = "username"
-  stackoverflow = "users/antonioplacerda/username"
-  # snapchat = "username"
-  # instagram = "username"
-  # youtube = "user/username" # or channel/channelname
-  # soundcloud = "username"
-  # spotify = "username"
-  # bandcamp = "username"
-  # itchio = "username"
-  # vk = "username"
-  # paypal = "username"
-  # telegram = "username"
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/antonioplacerda"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/_antoniolacerda"
+
 
 # [[menu.main]]
 #     name = "Blog"
@@ -73,12 +58,12 @@ googleAnalytics = "UA-147452549-1"
 
 [[menu.main]]
     name = "About"
-    url = "about"
+    url = "/about"
     weight = 3
 
 [[menu.main]]
     name = "Projects"
-    url = "projects"
+    url = "/projects"
     weight = 2
 
 # [[menu.main]]
