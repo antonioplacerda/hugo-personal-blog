@@ -2,3 +2,6 @@
 	path = public
 	url = https://github.com/antonioplacerda/antonioplacerda.github.io.git
 	branch = master
+[submodule "themes/archie"]
+	path = themes/archie
+	url = https://github.com/athul/archie.git
