@@ -1,44 +1,21 @@
-baseurl = "https://antonioplacerda.github.io"
-# DefaultContentLanguage = "en"
-title = "Antonio P Lacerda"
-theme = "archie"
-# metaDataFormat = "yaml"
-copyright = "© Antonio P Lacerda"
+baseURL = "https://antonioplacerda.github.io/"
+languageCode = "en-us"
+title = "antonio p lacerda"
+theme="archie"
+copyright = "© Antonio P. Lacerda"
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
-pygmentsStyle = "monokai"
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-#pygmentsUseClassic = true
-#pygmentOptions = "linenos=inline"
-#disqusShortname = "XXX"
-googleAnalytics = "UA-147452549-1"
+paginate = 3 # articles per page
 
 [params]
-  mode="auto"
-  subtitle = "The place where I'll write everything!"
-  favicon = "img/favicon.ico"
-  dateFormat = "2006-01-02"
-  commit = false
-  rss = true
-  # comments = true
-  readingTime = true
-  useHLJS = true
-  socialShare = false
-#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
-  since = 2019
+	mode="auto" # color-mode → light,dark or auto
+	featherIconsCDN=true
+	# subtitle = "Minimal and Clean [blog theme for Hugo](https://github.com/athul/archie)"
 
-#[[Params.bigimg]]
-#  src = "img/triangle.jpg"
-#  desc = "Triangle"
-#[[Params.bigimg]]
-#  src = "img/sphere.jpg"
-#  desc = "Sphere"
-#  # position: see values of CSS background-position.
-#  position = "center top"
-#[[Params.bigimg]]
-#  src = "img/hexagon.jpg"
-#  desc = "Hexagon"
+# Social Tags
 
 [[params.social]]
 name = "GitHub"
@@ -48,25 +25,26 @@ url = "https://github.com/antonioplacerda"
 [[params.social]]
 name = "Twitter"
 icon = "twitter"
-url = "https://twitter.com/_antoniolacerda"
+url = "https://twitter.com/_antoniolacerda/"
 
-
-# [[menu.main]]
-#     name = "Blog"
-#     url = ""
-#     weight = 1
+# Main menu Items
 
 [[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 3
+name = "Home"
+url = "/"
+weight = 1
 
 [[menu.main]]
-    name = "Projects"
-    url = "/projects"
-    weight = 2
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
 
 # [[menu.main]]
-#     name = "Tags"
-#     url = "tags"
-#     weight = 3
+# name = "Tags"
+# url = "/tags"
+# weight = 4
