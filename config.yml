@@ -1,7 +1,7 @@
 baseURL: "https://antonioplacerda.github.io/"
 title: "antonio p lacerda"
 paginate: 5
-theme: hugo-PaperMod
+theme: PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
