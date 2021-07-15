@@ -20,3 +20,13 @@ So, the contract should be able to:
 - Randomly pick a winner when the contract owner decides to.
 
 I will be updating this post with my progress!
+
+**\[Update]**
+
+YES! I made it, I've deployed the contract to the Rinkeby network! [Here](https://rinkeby.etherscan.io/address/0xEE7F2cD64543fe47BE2cae452510131b829D60fd) it is. What a great success!
+
+I developed the contract using the remix platform and deployed the contract right from there. It was way simpler than what I was expecting.
+
+I should improve and add some tests to the contract, but for now this is enough.
+
+I've also added the solidity code to etherscan, so that I can interact with the contract right there and feel cool!
