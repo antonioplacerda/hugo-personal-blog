@@ -2,7 +2,7 @@
 title: "Creating my first DApp"
 date: 2021-07-15T00:08:43+01:00
 draft: false
-tags: []
+tags: ["goals","solidity","blockchain"]
 ---
 
 It's time to get my Q3 goals going and I've decided to go with the DApp!
